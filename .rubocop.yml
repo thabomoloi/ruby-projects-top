@@ -28,9 +28,11 @@ Lint/AmbiguousAssignment:
 Lint/AmbiguousOperatorPrecedence:
   Enabled: true
 
-
 Metrics/BlockLength:
   Exclude:
     - 'Rakefile'
     - '**/*.spec.rb'
     - 'test/**/*.rb'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
